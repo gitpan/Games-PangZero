@@ -5,12 +5,11 @@ author:
   - 'SAdam <sadam@apocalypse.rulez.org>'
   - 'DaniGM <danigm@gmail.com>'
   - 'Elio Blanca <eblanca76@users.sourceforge.net>'
-build_requires:
-  Capture::Tiny: 0
+build_requires: {}
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.113640'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
 license: open_source
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,7 +18,7 @@ name: Games-PangZero
 provides:
   Games::PangZero:
     file: lib/Games/PangZero.pm
-    version: 1.3
+    version: 1.4
   Games::PangZero::Ball:
     file: lib/Games/PangZero/Ball.pm
     version: 0
@@ -157,4 +156,4 @@ requires:
 resources:
   license: http://opensource.org/licenses/gpl-license.php
   repository: http://github.com/kthakore/pangzero
-version: 1.3
+version: 1.4

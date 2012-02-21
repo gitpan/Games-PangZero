@@ -1,7 +1,7 @@
 package Games::PangZero;
 
 $Cheat   = 0;
-$VERSION = '1.3';
+$VERSION = '1.4';
 $DataDir = '';  # Set it to a path to avoid autodetection (e.g. /opt/pangzero/data)
 
 =comment
@@ -119,8 +119,8 @@ use Games::PangZero::ChallengeGame;
 use Games::PangZero::Config;
 use Games::PangZero::DeadGuy;
 use Games::PangZero::DeathBall;
-use Games::PangZero::DemoGame;
 use Games::PangZero::PanicGame;
+use Games::PangZero::DemoGame;
 use Games::PangZero::PlaybackGame;
 use Games::PangZero::DemoPlaybackGame;
 use Games::PangZero::RecordGame;
