@@ -18,7 +18,7 @@ name: Games-PangZero
 provides:
   Games::PangZero:
     file: lib/Games/PangZero.pm
-    version: 1.4
+    version: 1.401
   Games::PangZero::Ball:
     file: lib/Games/PangZero/Ball.pm
     version: 0
@@ -154,6 +154,7 @@ requires:
   SDL: 2.536
   Time::HiRes: 0
 resources:
-  license: http://opensource.org/licenses/gpl-license.php
+  bugtracker: http://github.com/kthakore/pangzero/issues
+  license: http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt
   repository: http://github.com/kthakore/pangzero
-version: 1.4
+version: 1.401

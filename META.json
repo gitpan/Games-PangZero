@@ -34,7 +34,7 @@
    "provides" : {
       "Games::PangZero" : {
          "file" : "lib/Games/PangZero.pm",
-         "version" : "1.4"
+         "version" : "1.401"
       },
       "Games::PangZero::Ball" : {
          "file" : "lib/Games/PangZero/Ball.pm",
@@ -211,12 +211,15 @@
    },
    "release_status" : "stable",
    "resources" : {
+      "bugtracker" : {
+         "web" : "http://github.com/kthakore/pangzero/issues"
+      },
       "license" : [
-         "http://opensource.org/licenses/gpl-license.php"
+         "http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt"
       ],
       "repository" : {
          "url" : "http://github.com/kthakore/pangzero"
       }
    },
-   "version" : "1.4"
+   "version" : "1.401"
 }
