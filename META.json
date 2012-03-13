@@ -34,7 +34,7 @@
    "provides" : {
       "Games::PangZero" : {
          "file" : "lib/Games/PangZero.pm",
-         "version" : "1.401"
+         "version" : "v1.4.1"
       },
       "Games::PangZero::Ball" : {
          "file" : "lib/Games/PangZero/Ball.pm",
@@ -221,5 +221,5 @@
          "url" : "http://github.com/kthakore/pangzero"
       }
    },
-   "version" : "1.401"
+   "version" : "v1.4.1"
 }
